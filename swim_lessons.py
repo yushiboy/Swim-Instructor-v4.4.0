@@ -42,11 +42,15 @@ while True:
 
 		selection = raw_input("Please select an option: ")
 		if selection == '1'
-			print("Find student")
+			input("Student" , student)
+			find_student(student)
 		if selection == '2'
 			print("Add student")
+			add_student()
 		if selection == '3'
 			print("Archive student")
+			input("Student: " , student
+			archive_student(student)
 		if selection == '4'
 			print("EXIT")
 		else:
